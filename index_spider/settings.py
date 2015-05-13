@@ -17,8 +17,8 @@ ITEM_PIPELINES = ['index_spider.pipelines.IndexPipeline']
 DATABASE = {
     'drivername': 'postgres',
     'host': 'localhost',
-    'port': '5432',
-    'username': 'zz',  
+    'port': 'hide',
+    'username': 'hide',  
     'password': '',  
     'database': 'indexscrape'
 }
